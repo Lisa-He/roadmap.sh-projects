@@ -1,0 +1,80 @@
+/*== Global ==*/
+
+html {
+    font-family: "Helvetica New", "Arial", sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+
+/*== Header section - Navigation ==*/
+#top-navigation img, #top-navigation #headline, #top-navigation ul, #top-navigation li {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#top-navigation {
+    padding: 15px 20px 0;
+
+}
+
+.forest-icon {
+    width: 40px;
+    filter: invert(0.8);
+}
+
+#top-navigation #headline {
+    padding: 0 30px;
+    font-weight: 550;
+}
+
+#top-navigation ul {
+    float: right;
+}
+
+#top-navigation li {
+    list-style-type: none;
+}
+
+#top-navigation li:after {
+    content: '/';
+    padding: 0 25px;
+}
+
+#top-navigation li:last-child:after {
+    content: '';
+}
+
+#top-navigation li a {
+    text-decoration: none;
+    color: black;
+}
+
+#top-navigation li a:hover {
+    color: rgba(0, 0, 0, 50%);
+}
+
+/*== Header section - Banner ==*/
+
+#banner {
+    padding: 0;
+    height: 300px;
+    text-align: center;
+    background-color: #333;
+    color: #FFF;
+}
+
+#banner p {
+    color: rgba(255, 255, 255, 60%);
+}
+
+
+
+/*== Footer section - Copyright ==*/
+
+footer {
+    margin: 120px 0;
+    text-align: center;
+}
